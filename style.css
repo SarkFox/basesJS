@@ -1,0 +1,120 @@
+*
+{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+main
+{
+    font-size: 1.6rem;
+    color: aliceblue;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#bg
+{
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+
+body
+{
+    background-color: black;
+    height: 100vh;
+
+}
+
+header
+{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2.5rem;
+    background-color: black;
+    text-shadow: 0 0 10px rgba(255, 255, 255, .35);
+
+}
+
+.boxCuadrado
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    height: 35vh;
+    width: 25vw;
+    border: 0.2rem solid whitesmoke;
+    text-align: center;
+    z-index: 100;
+
+}
+
+.boxTriangulo
+{
+    margin-top: 20vh;
+    height: 35vh;
+    width: 25vw;
+    border: 0.2rem solid whitesmoke;
+    text-align: center;
+    z-index: 100;
+}
+
+.boxCirculo
+{
+    margin-top: 20vh;
+    height: 35vh;
+    width: 25vw;
+    border: 0.2rem solid whitesmoke;
+    text-align: center;
+    z-index: 100;
+}
+
+footer{
+    display: flex;
+    font-size: 2rem;
+    margin-top: 31.7rem;
+    color: whitesmoke;
+    z-index: 100;
+}
+
+.links
+{
+    display:inline-block;
+    position: absolute;
+    right:0;
+    z-index: 100;
+}
+
+.link
+{
+    display:inline-block;
+    
+}
+
+.link a
+{
+    
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.link a::after
+{
+    content:" | ";
+}
+
+.link a:hover
+{
+    color:rgb(148, 3, 3);
+}

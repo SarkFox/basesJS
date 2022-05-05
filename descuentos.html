@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes y descuentos</title>
+    <link rel="stylesheet" href="./stylediscount.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Calculadora de descuentos
+        </h1>
+        <p>Calculadora de descuentos(HTML + CSS + JS)</p>
+    </header>
+<main>
+    <form class="formulario">
+        <label for = "inputPrice">Escribre el precio de tu producto:</label>
+        <input id="inputPrice" type="number"/>
+        <label for="inputDiscount"> Escribe el descuento de tu producto:</label>
+        <input id="inputDiscount" type="number"/>
+
+        <button type="button" onclick="onClickButtonPriceDiscount()">
+            Calcular el precio con descuento
+
+        </button>
+        <p id="resultPrice"> </p>
+    </form>
+
+</main>
+<footer>
+    <p class= creditos>Desarrollado por: Felipe Velasquez Jaramillo</p>
+    <div class="links">
+        <section class="link">
+            <a href="./index.html">Home</a> 
+             </section>
+        <section class="link">
+         <a href="./figuras.html">Figuras Geometricas</a> 
+         </section>
+    </div>
+ 
+</footer>
+<div id="bg"></div>
+<script src="./particles.min.js"></script>
+<script src="./descuentos.js"></script>
+</body>
+</html>

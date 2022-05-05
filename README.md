@@ -4,8 +4,8 @@ practicas de JavaScript
  ...
 
 
-## Taller #1 Figuras geometricas
-- Primer paso: Definir formulas
-- Segundo: implementar formulas en JS
-- Terdero: Crear funciones
-- Cuarto: Integrar JS con HTML
+## #1 Figuras geometricas
+- Calculadora de areas y perimetros para figuras geómetricas básicas.
+
+## #2 Porcentajes y descuentos
+- Calculadora de descuentos para un producto en especifico.

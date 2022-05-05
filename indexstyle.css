@@ -1,0 +1,111 @@
+*
+{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+main
+{
+    display: flex;
+    justify-content: center;
+    font-size: 4.0rem;
+    text-align: center;
+    color:whitesmoke;
+    background-color: black;
+    text-shadow: 0 0 10px rgba(255, 255, 255, .35);
+}
+
+body
+{
+    background-color: black;
+    height: 100vh;
+}
+
+.boxes
+{
+    margin-top: 20vh;
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.box
+{
+    padding-top: 15rem;
+    border-radius: 1.5rem;
+    border: 0.5rem solid whitesmoke;
+    height: 40vh;
+    width: 30vw;
+    text-align: center;
+    font-size: 3.5rem;
+    z-index: 100;
+    
+}
+
+.box a
+{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+.box a:hover
+{
+    color:rgb(148, 3, 3);
+}
+
+footer{
+    display: flex;
+    font-size: 2rem;
+    margin-top: 21rem;
+    color: whitesmoke;
+    z-index: 100;
+}
+
+.links
+{
+    display:inline-block;
+    position: absolute;
+    right:0;
+    z-index: 100;
+}
+
+.link
+{
+    display:inline-block;
+    
+}
+
+.link a
+{
+    
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.link a::after
+{
+    content:" | ";
+}
+
+.link a:hover
+{
+    color:rgb(148, 3, 3);
+}
+
+
+#bg
+{
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
